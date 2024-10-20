@@ -44,5 +44,3 @@ Installation steps: -
     ```
     flutter run
     ```
-
-- **Note**: Don't forget to test the app from release section.
