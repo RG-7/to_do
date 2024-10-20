@@ -1,16 +1,48 @@
-# to_do
+# ToDo App
 
-A new Flutter project.
+Simple to-do list app that uses hive for local storage.
 
-## Getting Started
+## Features
+- Add new tasks
+- Delete tasks
+- Mark tasks as completed
+- View all tasks
+- Persistent local storage using Hive
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation & Setup
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Prerequisites
+    ```
+    flutter : 3.24.3 (recommended)
+    dart : 3.5.3
+    DevTools : 2.37.3
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Installation steps: -
+1. **Clone the repository**:
+    ```
+    git clone https://github.com/RG-7/to_do.git
+    ```
+
+2. **Navigate to the project directory**:
+    ```
+    cd to_do
+    ```
+
+3. **Clean existing builds**: (if any optional)
+    ```
+    flutter clean
+    ```
+
+4. **Get the dependencies**:
+    ```
+    flutter pub get
+    ```
+
+5. **Run the app**:
+    ```
+    flutter run
+    ```
+
+- **Note**: Don't forget to test the app from release section.
